@@ -1,0 +1,160 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+  overflow-x: hidden;
+  background-color: #171f28;
+}
+
+/* COMMON ELEMENTS STYLING */
+.divider {
+  background-color: #22a985;
+  width: 80%;
+  height: 2px;
+  border-radius: 20px;
+}
+
+/* NAVBAR STYLING*/
+nav {
+  background-color: #171f28;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.09);
+}
+nav .navbar-brand{
+  color: #22a985;
+}
+
+nav .navbar-collapse a {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+  margin: 0px 10px;
+  padding: 10px 10px;
+  position: relative;
+  z-index: 0;
+  /* color: rgba(0, 0, 0, 0.6) !important; */
+  cursor: pointer;
+  margin: 0px 20px;
+}
+
+nav .navbar-collapse a:hover {
+  color: #fff;
+}
+
+nav .navbar-collapse a:after {
+  position: absolute;
+  left: 10px;
+  height: 4px;
+  background: #fff;
+  /* background: #075cf7; */
+  content: "";
+  opacity: 0;
+  transition: all 0.3s;
+}
+
+nav .navbar-collapse a:after {
+  width: 30px;
+  border-radius: 20px;
+  bottom: 0px;
+  transform: translateX(-10px);
+}
+
+nav .navbar-collapse a:hover:after {
+  opacity: 1;
+  transform: translateX(0px);
+}
+
+/* MAIN LANDING SECTION */
+main {
+  color: #fff;
+  overflow-x: hidden;
+  padding: 10vh 0px;
+}
+
+main .content {
+  z-index: 10;
+  padding: 20vh 50px;
+}
+
+main .content h4 {
+  /* color: #075cf7; */
+}
+
+main .content h1 {
+  font-weight: 600;
+}
+
+main .content p {
+  letter-spacing: 1px;
+  font-size: 14px;
+}
+
+main #illustration {
+  position: relative;
+  right: 100px;
+}
+
+main .callToAction {
+  color: #171f28;
+  letter-spacing: 1px;
+  width: 150px;
+  border-radius: 50px;
+  background-color: #22a985;
+  box-shadow: 0 0 30px 0 rgba(34, 170, 133);
+  /* background-image:linear-gradient( 160deg, #fff , #22a985); */
+}
+
+/* INTERFACE SECTION STYLING */
+.interface {
+  margin-bottom: 10vh;
+}
+
+.interface #search{
+   width: 400px;
+   border: none;
+   border-radius: 50px;
+   margin-bottom: 100px;
+   box-shadow: 0 0 20px 0 rgba(34, 170, 133 , 0.4);
+
+}
+
+.interface .profile .card {
+  padding: 30px 20px;
+  color: #3c4043;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.interface .profile .card img {
+  width: 200px;
+}
+
+.interface .profile .card h3 {
+  font-weight: 600;
+}
+.interface .profile .card h5 {
+  font-size: 18px;
+}
+
+
+.interface .ID {
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.interface .f-print {
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.interface .f-print .finger {
+  width: 100px;
+}
+
+.interface .details .card {
+  color: #fff;
+  border-radius: 20px;
+  background-color: #585B5F;
+}
+.interface .details .card h4{
+  letter-spacing: 1px;
+  font-weight: 600;
+}
