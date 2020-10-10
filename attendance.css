@@ -1,0 +1,28 @@
+.attendance-section{
+  padding-top: 15vh;
+}
+
+/* **************************************** */
+/* TABLE SECTION */
+
+
+.students-listing {
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.students-listing table tbody td {
+  padding: 15px 10px !important;
+}
+
+.students-listing table tbody tr:hover td {
+  background-color: #f1f1f1;
+}
+
+.add-new-action {
+  background-color: #22a985;
+  border: none !important;
+  border-radius: 20px;
+  padding: 5px 20px;
+}

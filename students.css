@@ -1,0 +1,58 @@
+
+/* INTERFACE SECTION STYLING */
+.interface {
+  padding-top: 15vh;
+}
+
+
+.interface .profile .card {
+  padding: 30px 20px;
+  color: #3c4043;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.interface .profile .card img {
+  width: 200px;
+}
+
+.interface .profile .card h3 {
+  font-weight: 600;
+}
+
+.interface .profile .card h5 {
+  font-size: 18px;
+}
+
+.interface .ID {
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.interface .f-print {
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.interface .f-print .finger {
+  width: 100px;
+}
+
+.interface .details .card {
+  color: #fff;
+  border-radius: 20px;
+  background-color: #585B5F;
+}
+
+.interface .details .card h4 {
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+
+.add-new-action{
+  background-color: #22a985;
+  border: none!important;
+  border-radius: 20px;
+  padding: 5px 20px;
+}
