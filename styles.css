@@ -82,6 +82,11 @@ nav .login-btn {
 
 }
 
+nav .login-btn a{
+  text-decoration: none;
+  color: #3c4043!important;
+}
+
 nav .management-dropdown-btn {
   background-color: transparent;
   color: #fff !important;

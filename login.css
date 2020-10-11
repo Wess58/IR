@@ -1,0 +1,38 @@
+.login {
+  padding-top: 15vh;
+}
+
+form {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 5vh 30px;
+}
+
+form h4 {
+color: #5f6368;
+font-size: 1.2rem;
+}
+form h4 span{
+  color: #22a985;
+  font-size: 2rem;
+}
+
+form input {
+  border: none;
+  outline: none !important;
+  box-shadow: none !important;
+  border-radius: 8px !important;
+  margin-bottom: 40px;
+}
+
+form input:focus,
+form input:active {
+  border: 2px solid #22a985 !important;
+}
+
+form .submit-btn {
+  width: 100%;
+  background-color: #22a985;
+  letter-spacing: 1px;
+  border-radius: 8px;
+}

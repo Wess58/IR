@@ -1,0 +1,38 @@
+.create-student{
+padding-top: 15vh;
+}
+
+.create-student  img{
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #22a985;
+  cursor: pointer;
+  /* width: 100px;
+  height: 100px; */
+}
+
+form{
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 30px 20px;
+}
+form input{
+  border: none;
+  outline: none!important;
+  box-shadow: none!important;
+  border-radius: 8px!important;
+  margin-bottom: 20px;
+}
+
+form input:focus,
+form input:active{
+
+  border: 2px solid #22a985!important;
+}
+form .submit-btn{
+  width: 100%;
+  background-color: #22a985;
+  letter-spacing: 1px;
+  border-radius: 8px;
+}
