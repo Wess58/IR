@@ -61,3 +61,22 @@
   text-decoration: none;
   color: #3c4043!important;
 }
+
+.students-section{
+  padding-top: 15vh;
+}
+
+
+.students-listing {
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.students-listing table tbody td {
+  padding: 15px 10px !important;
+}
+
+.students-listing table tbody tr:hover td {
+  background-color: #f1f1f1;
+}

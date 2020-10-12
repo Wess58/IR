@@ -1,0 +1,158 @@
+<div class="container interface">
+
+
+  <div class="row">
+    <div class="col-md-3">
+
+    </div>
+    <div class="col-md-6">
+      <div class="form-group" align="center">
+        <input id="search" class="form-control" type="text" name="search" placeholder="Search Student">
+      </div>
+    </div>
+    <div class="col-md-3 text-right">
+      <button class="btn add-new-action" title="create new student">
+        <a href="create-student.html">
+          new student
+        </a>
+      </button>
+    </div>
+
+  </div>
+
+
+
+
+
+  <div class="row">
+
+    <!-- general profile section -->
+
+    <div class="col-md-4">
+
+      <div class="profile">
+        <div class="card text-center">
+          <div align="center">
+            <img class="mb-4" src="images/programmer.svg" alt="avatar">
+
+          </div>
+
+
+
+          <h3>Charles <br> Ngeru</h3>
+
+          <h5 class="mt-4"> KSJ-1098476</h5>
+          <h5 class="mt-3">Tel No : +254 789356212</h5>
+          <h5 class="mt-3">Email : sample@gmail.com</h5>
+
+        </div>
+      </div>
+
+    </div>
+
+    <!-- details sections -->
+
+    <div class="col-md-8">
+
+      <div class="row mb-5">
+        <div class="col-md-6">
+          <div class="card ID h-100 py-4">
+            <span class="text-center m-auto">SCHOOL ID PLACEHOLDER</span>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="card f-print h-100 py-4">
+            <img class="finger" src="images/finger.svg" alt="finger">
+
+          </div>
+
+        </div>
+      </div>
+
+      <div class="row details mb-5">
+
+        <div class="col-md-4">
+          <div class="card pl-2 py-3">
+            <h4>Course</h4>
+            <p>Lorem Ipsum</p>
+
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card pl-2 py-3">
+            <h4>Unit</h4>
+            <p>Lorem Ipsum</p>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card pl-2 py-3">
+            <h4>Department</h4>
+            <p>Lorem Ipsum</p>
+
+          </div>
+        </div>
+
+      </div>
+      <div class="row details mb-5">
+
+        <div class="col-md-4">
+          <div class="card pl-2 py-3">
+            <h4>Course</h4>
+            <p>Lorem Ipsum</p>
+
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card pl-2 py-3">
+            <h4>Unit</h4>
+            <p>Lorem Ipsum</p>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card pl-2 py-3">
+            <h4>Department</h4>
+            <p>Lorem Ipsum</p>
+
+          </div>
+        </div>
+
+      </div>
+
+      <!-- <div class="row details mb-5">
+
+      <div class="col-md-4">
+        <div class="card">
+          <h4></h4>
+          <p></p>
+
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card">
+          <h4></h4>
+          <p></p>
+
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card">
+          <h4></h4>
+          <p></p>
+
+        </div>
+      </div>
+
+    </div> -->
+
+
+    </div>
+
+  </div>
+
+</div>
