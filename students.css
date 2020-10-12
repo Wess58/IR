@@ -80,3 +80,7 @@
 .students-listing table tbody tr:hover td {
   background-color: #f1f1f1;
 }
+td .avatar{
+  height: 50px;
+  margin-right: 20px;
+}
