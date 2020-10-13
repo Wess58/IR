@@ -20,14 +20,16 @@
   background-color: #f1f1f1;
 }
 
-.add-new-action {
+.run-action {
   background-color: #22a985;
   border: none !important;
   border-radius: 20px;
   padding: 5px 20px;
+  position: relative;
+  top:30vh;
 }
 
-.add-new-action a{
+.run-action a{
   text-decoration: none;
   color: #3c4043!important;
 }
